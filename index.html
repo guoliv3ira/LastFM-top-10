@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LastFM Top 10</title>
+</head>
+
+<body>
+    <div class="container central">
+        <h1>LastFM Top 10</h1>
+
+        <div class="searchBox form-row">
+            <div class="col"></div>
+            <div class="col"><label for="user">User:</label>
+                <input type="text" class="user form-control col" name="user">
+                
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active" id="album">
+              <input type="radio" name="options"  autocomplete="off" checked> Albuns
+            </label>
+            <label class="btn btn-secondary" id="artist">
+              <input type="radio" name="options"  autocomplete="off"> Artists
+            </label>
+            <label class="btn btn-secondary" id="track">
+              <input type="radio" name="options"  autocomplete="off"> Tracks
+            </label>
+          </div>
+        </div>
+
+        <!-- <form action="" class="typeofsearch">
+            <input type="radio" name="typeof" id="album"> Albums
+            <input type="radio" name="typeof" id="artist"> Artists
+            <input type="radio" name="typeof" id="track"> Tracks
+
+        </form> -->
+
+<div class="container central">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active" id="overall">
+              <input type="radio" name="options"  autocomplete="off" checked> Overall
+            </label>
+            <label class="btn btn-secondary" id="sevenday">
+              <input type="radio" name="options"  autocomplete="off"> 7 Days
+            </label>
+            <label class="btn btn-secondary" id="onemonth">
+              <input type="radio" name="options"  autocomplete="off"> 1 Month
+            </label>
+            <label class="btn btn-secondary" id="threemonths">
+                <input type="radio" name="options"  autocomplete="off" checked> 3 Months
+              </label>
+              <label class="btn btn-secondary" id="sixmonths">
+                <input type="radio" name="options"  autocomplete="off"> 6 Months
+              </label>
+              <label class="btn btn-secondary" id="year">
+                <input type="radio" name="options"  autocomplete="off"> 1 Year
+              </label>
+          </div>
+          <div class="container central"><button class="pesquisa btn btn-primary">Search</button></div>
+          
+        </div>
+        <!-- <form action="" class="period">
+            <input type="radio" name="period" id="overall"> Overall
+            <input type="radio" name="period" id="sevenday"> 7 Day
+            <input type="radio" name="period" id="onemonth"> 1 Month
+            <input type="radio" name="period" id="threemonths"> 3 Months
+            <input type="radio" name="period" id="sixmonths"> 6 Months
+            <input type="radio" name="period" id="year"> Year -->
+            <div class="container central">
+            <h1>Results:</h1>
+<div class="list row">
+    
+</div>
+
+        </form>
+        
+        <ul class="result list-group list-group-flush">
+
+        </ul>
+            </div>
+    
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.loading{
+    max-width: 100px;
+    align-self: center;
+}
+
+.central{
+    text-align: center;
+}
+
+.central h1{
+    margin: 40px 0;
+    font-weight: bold;
+}
+.central .btn{
+    margin: 10px 0;
+}
+
+.pesquisa{
+    margin: 10px;
+}
+
+
+.artista{
+    font-weight: bold;
+}
+
+.card-text{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    margin-bottom: 5px;
+}
+
+.result p{
+    margin: 0;
+    padding: 0;
+
+}
