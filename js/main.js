@@ -154,7 +154,7 @@ btn.addEventListener('click', (e) => {
 })
 
 const search = (user, type, period) => {
-    axios.get('http://ws.audioscrobbler.com/2.0/?method=user.' + type + '&user=' + user + '&api_key=58d5197fc1c9f81a57eb3facc4587b84&period=' + period + '&format=json')
+    axios.get('https://ws.audioscrobbler.com/2.0/?method=user.' + type + '&user=' + user + '&api_key=58d5197fc1c9f81a57eb3facc4587b84&period=' + period + '&format=json')
         .then((response) => {
             if (type == "gettopalbums") {
                 resultAlbum(response.data.topalbums.album)
