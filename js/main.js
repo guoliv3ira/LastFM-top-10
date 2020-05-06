@@ -203,7 +203,7 @@ const resultAlbum = (data) => {
         const artista = document.createElement('p')
         artista.innerHTML = artist
         artista.setAttribute('class', 'artista card-text')
-        console.log(nome, lista, artista)
+        //console.log(nome, lista, artista)
         const capa = document.createElement('img')
         capa.setAttribute('src', size)
         capa.setAttribute('class', "card-img-top")
