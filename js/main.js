@@ -19,6 +19,7 @@ const lista = document.querySelector('.list')
 
 
 btn.addEventListener('click', (e) => {
+    list.innerHTML = ''
     const User = inputUser.value
     // if (overall.checked){
     //     search(User,"overall")
@@ -171,7 +172,7 @@ const search = (user, type, period) => {
             }
         })
         .catch((error) => {
-            list.innerHTML = "Erro"
+            list.innerHTML = "Error: user not found"
         })
 }
 
