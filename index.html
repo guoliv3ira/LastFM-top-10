@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
     <title>LastFM Top 10</title>
 </head>
 
@@ -15,8 +17,8 @@
 
         <div class="searchBox form-row">
             <div class="col"></div>
-            <div class="col"><label for="user">User:</label>
-                <input type="text" class="user form-control col" name="user">
+            <div class="col"><label for="user"></label>
+                <input type="text" class="user form-control col" name="user" placeholder="User">
                 
             </div>
             <div class="col"></div>
@@ -63,7 +65,7 @@
                 <input type="radio" name="options"  autocomplete="off"> 1 Year
               </label>
           </div>
-          <div class="container central"><button class="pesquisa btn btn-primary">Search</button></div>
+          <div class="container central"><button class="pesquisa btn btn-secondary">Search</button></div>
           
         </div>
         <!-- <form action="" class="period">
@@ -73,7 +75,7 @@
             <input type="radio" name="period" id="threemonths"> 3 Months
             <input type="radio" name="period" id="sixmonths"> 6 Months
             <input type="radio" name="period" id="year"> Year -->
-            <div class="container central">
+            <div class="container central results">
             <h1>Results:</h1>
 <div class="list row">
     
@@ -86,6 +88,10 @@
         </ul>
             </div>
     
+
+            <div class="footer-copyright text-center py-3">Desenvolvido por:
+              <a href="https://github.com/guoliv3ira/"> Gustavo Oliveira</a>
+            </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/main.js"></script>

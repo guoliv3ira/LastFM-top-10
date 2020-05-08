@@ -10,11 +10,15 @@ body{
 
 .central{
     text-align: center;
+    background-color: rgb(202, 202, 202);
+    padding-bottom: 10px;
 }
 
 .central h1{
-    margin: 40px 0;
+    margin: 20px 0;
     font-weight: bold;
+    font-family: Lobster;
+    padding-top: 20px;
 }
 .central .btn{
     margin: 10px 0;
@@ -22,8 +26,12 @@ body{
 
 .pesquisa{
     margin: 10px;
+    
 }
 
+.btn-secondary{
+    font-family: Lobster;
+}
 
 .artista{
     font-weight: bold;
@@ -41,5 +49,29 @@ body{
 .result p{
     margin: 0;
     padding: 0;
+
+}
+
+.user{
+    text-align: center;
+}
+
+.results{
+    margin-top: 0;
+    background-color: rgb(202, 202, 202);
+}
+
+.list-group-flush, .list-group-item{
+    background-color: rgb(231, 231, 231);
+}
+
+.footer-copyright{
+  margin-top: 50px;
+
+
+}
+.footer-copyright a{
+    text-decoration: none;
+    color: black;
 
 }
