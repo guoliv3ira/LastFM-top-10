@@ -12,6 +12,7 @@ body{
     text-align: center;
     background-color: rgb(202, 202, 202);
     padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .central h1{
@@ -56,9 +57,10 @@ body{
     text-align: center;
 }
 
-.results{
+.results ul{
     margin-top: 0;
     background-color: rgb(202, 202, 202);
+    border-radius: 10px;
 }
 
 .list-group-flush, .list-group-item{
