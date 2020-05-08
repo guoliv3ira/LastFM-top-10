@@ -25,11 +25,6 @@ body{
     margin: 10px 0;
 }
 
-.pesquisa{
-    margin: 10px;
-    
-}
-
 .btn-secondary{
     font-family: Lobster;
 }
@@ -76,4 +71,8 @@ body{
     text-decoration: none;
     color: black;
 
+}
+
+.times label{
+    font-size: 14px;
 }
